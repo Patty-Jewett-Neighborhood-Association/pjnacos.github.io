@@ -2605,9 +2605,9 @@ input, select, textarea {
 		padding-top: 5em;
 	}
 
-/* CTA */
+/* CEA */
 
-	#cta {
+	#cea {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #6CA53E;
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner2.jpg");
