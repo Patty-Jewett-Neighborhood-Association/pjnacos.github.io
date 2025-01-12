@@ -2582,7 +2582,8 @@ input, select, textarea {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding-left: 25%;
+		padding-right: 25%;
 	}
 
 		#main > :last-child {
@@ -2603,8 +2604,6 @@ input, select, textarea {
 
 	body.index #main {
 		padding-top: 5em;
-		@media screen and (max-width: 768px) {
-  		margin-right: 25%;
 	}
 
 
