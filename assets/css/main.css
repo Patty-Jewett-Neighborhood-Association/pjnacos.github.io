@@ -2603,11 +2603,10 @@ input, select, textarea {
 
 	body.index #main {
 		padding-top: 5em;
+		@media screen and (max-width: 768px) {
+  		margin-right: 25%;
 	}
 
-@media screen and (max-width: 768px) {
-  margin-right: 25%;
-}
 
 /* CEA */
 
