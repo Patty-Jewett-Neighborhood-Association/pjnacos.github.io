@@ -26,7 +26,7 @@ const createOdometer = (el, value) => {
 };
 
 const subscribersOdometer = document.querySelector(".subscribers-odometer");
-createOdometer(subscribersOdometer, 13000);
+createOdometer(subscribersOdometer, 14000);
 
 const videosOdometer = document.querySelector(".videos-odometer");
-createOdometer(videosOdometer, 19000);
+createOdometer(videosOdometer, 21000);
