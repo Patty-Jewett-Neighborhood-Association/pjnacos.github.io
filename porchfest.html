@@ -97,6 +97,50 @@ The happiest block party in Colorado Springs!
 												<header>
 													<h3>Pre Order 2025 Merch</h3>
 												</header>
+					<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Rotator</title>
+  <style>
+    img {
+      width: 300px; /* Adjust as needed */
+      height: auto;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .hidden {
+      opacity: 0;
+    }
+
+    .visible {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <img id="rotatingImage" src="image1.png" class="visible" alt="Rotating Image">
+
+  <script>
+    const images = ['porchfest1.png', 'porchfest2.png']; // Replace with your image paths
+    const img = document.getElementById('rotatingImage');
+    let index = 0;
+
+    setInterval(() => {
+      img.classList.remove('visible');
+      img.classList.add('hidden');
+
+      setTimeout(() => {
+        index = (index + 1) % images.length;
+        img.src = images[index];
+        img.classList.remove('hidden');
+        img.classList.add('visible');
+      }, 1000); // Wait for fade-out transition (1 second)
+    }, 4000); // Time between image changes (e.g. every 4 seconds)
+  </script>
+
+</body>
+</html>
 												<a href="https://porchfest25.itemorder.com/shop/home">Click this link to shop.</a></li> Order by August 17 to get your merch before the big event! 
 
 											</section>
@@ -105,7 +149,7 @@ The happiest block party in Colorado Springs!
 												<header>
 													<h3>Want to volunteer?</h3>
 												</header>
-												<a href="mailto:pjnacos@gmail.com">Let us know!</a></li> There are opportunities for everyone, including planning, outreach, setup, tear down, and more! 
+												<a href="mailto:info@pattyjewettneighborhood.org>Let us know!</a></li> There are opportunities for everyone, including planning, outreach, setup, tear down, and more! 
 	
 											</section>
 
@@ -179,4 +223,5 @@ Porchfest is a FREE annual block party featuring three bands on three different 
 
 	</body>
 </html>
+
 
