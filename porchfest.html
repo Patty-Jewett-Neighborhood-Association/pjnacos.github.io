@@ -96,51 +96,6 @@ The happiest block party in Colorado Springs!
 				<section>
 												<header>
 													<h3>Pre Order 2025 Merch</h3>
-												</header>
-					<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Image Rotator</title>
-  <style>
-    img {
-      width: 300px; /* Adjust as needed */
-      height: auto;
-      transition: opacity 1s ease-in-out;
-    }
-
-    .hidden {
-      opacity: 0;
-    }
-
-    .visible {
-      opacity: 1;
-    }
-  </style>
-</head>
-<body>
-
-  <img id="rotatingImage" src="image1.png" class="visible" alt="Rotating Image">
-
-  <script>
-    const images = ['porchfest1.jpeg', 'porchfest2.jpeg']; // Replace with your image paths
-    const img = document.getElementById('rotatingImage');
-    let index = 0;
-
-    setInterval(() => {
-      img.classList.remove('visible');
-      img.classList.add('hidden');
-
-      setTimeout(() => {
-        index = (index + 1) % images.length;
-        img.src = images[index];
-        img.classList.remove('hidden');
-        img.classList.add('visible');
-      }, 1000); // Wait for fade-out transition (1 second)
-    }, 4000); // Time between image changes (e.g. every 4 seconds)
-  </script>
-
-</body>
-</html>
 												<a href="https://porchfest25.itemorder.com/shop/home">Click this link to shop.</a></li> Order by August 17 to get your merch before the big event! 
 
 											</section>
@@ -168,7 +123,9 @@ Porchfest is a FREE annual block party featuring three bands on three different 
 									<!-- Content -->
 										<div class="content">
 											<section>
-												<a href="#" class="image featured"><img src="images/2025porchfest.png" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/porchfest1.jpeg" alt="" /></a>
+												<a href="#" class="image featured"><img src="images/porchfest2.jpeg" alt="" /></a>
+
 											</section>
 										</div>
 
@@ -223,6 +180,7 @@ Porchfest is a FREE annual block party featuring three bands on three different 
 
 	</body>
 </html>
+
 
 
 
