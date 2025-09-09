@@ -29,4 +29,4 @@ const subscribersOdometer = document.querySelector(".subscribers-odometer");
 createOdometer(subscribersOdometer, 14000);
 
 const videosOdometer = document.querySelector(".videos-odometer");
-createOdometer(videosOdometer, 21000);
+createOdometer(videosOdometer, 22000);
